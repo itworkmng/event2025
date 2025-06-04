@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 import { SPEAKERS, WEB_URL } from "../assets/const";
+import Footer from "../components/Footer";
 
 const SpeakersPage = () => {
   const { id } = useParams();
@@ -62,6 +63,7 @@ const SpeakersPage = () => {
           </div>
         </section>
       </main>
+    <Footer/>
     </div>
   );
 };
